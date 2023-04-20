@@ -45,3 +45,19 @@ for candidate_names, votes in candidate_votes.items():
 print("---------------------")
 print(f"Winner: {winner}")
 print("---------------------")
+
+# Write to text file
+output_path="election_results.txt"
+
+with open(output_path, 'w') as txtfile:
+    # Write to file
+    txtfile.write("Election Results\n")
+    txtfile.write("---------------------\n")
+    txtfile.write(f"Total Votes: {total_votes}\n")
+    txtfile.write("---------------------\n")
+    for candidate_names, votes in candidate_votes.items():
+        percentage = (votes/total_votes)*100
+        txtfile.write(f"{candidate_names}: {percentage:.3f}% ({votes})\n")
+    txtfile.write("---------------------\n")
+    txtfile.write(f"Winner: {winner}\n")
+    txtfile.write("---------------------\n")
