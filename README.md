@@ -16,6 +16,8 @@ The greatest decrease in profits (date and amount) over the entire period
 
 
 
+
+
 Using the election data, the goal was to create a Python script that analyzes the votes and calculates each of the following:
 
 The total number of votes cast
