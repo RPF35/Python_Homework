@@ -14,8 +14,7 @@ The greatest increase in profits (date and amount) over the entire period
 The greatest decrease in profits (date and amount) over the entire period
 
 
-
-
+![Alt text](image-1.png)
 
 
 Using the election data, the goal was to create a Python script that analyzes the votes and calculates each of the following:
@@ -29,4 +28,7 @@ The percentage of votes each candidate won
 The total number of votes each candidate won
 
 The winner of the election based on popular vote
+
+
+![Alt text](image.png)
 
